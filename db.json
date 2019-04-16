@@ -2,6 +2,7 @@
   "questionnaire": {
     "status": {
       "type": "select",
+      "label": "Quelle est votre situation matrimoniale ?",
       "option": {
         "multiple-choice": false
       },
