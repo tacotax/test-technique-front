@@ -12,8 +12,16 @@
           "value": "celibataire"
         },
         {
-          "label": "Marié(e)",
+          "label": "Marié(e) / Pacsé(e)",
           "value": "marie"
+        },
+        {
+          "label": "Divorcé(e)",
+          "value": "divorced"
+        },
+        {
+          "label": "En concubinage",
+          "value": "concubinage"
         },
         {
           "label": "Veuf(e)",
