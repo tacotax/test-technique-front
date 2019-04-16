@@ -20,7 +20,8 @@ Description du slider :
 (voir images pour design)
 
 ## Techno :
-Le slider est a réalisé avec React.js
+Le slider est a réalisé avec React.js.
+L'intégration se fera avec au choix : Sass ou styled-component.
 
 ## Spécificités :
 ### slider
@@ -53,7 +54,7 @@ Le slider est a réalisé avec React.js
 ### Slider seconde slide error
 ![Rendu du slider 2](./images_description/rendu_slider_slide_2_error.png)
 
-### Troisième slide ressemble à la troisième
+### Troisième slide ressemble à la deuxième
 
 
 ## Server :
