@@ -1,0 +1,50 @@
+{
+  "questionnaire": {
+    "status": {
+      "type": "select",
+      "label": "Quelle est votre situation matrimoniale ?",
+      "option": {
+        "multiple-choice": false
+      },
+      "data": [
+        {
+          "label": "Célibataire",
+          "value": "celibataire"
+        },
+        {
+          "label": "Marié(e) / Pacsé(e)",
+          "value": "marie"
+        },
+        {
+          "label": "Divorcé(e)",
+          "value": "divorced"
+        },
+        {
+          "label": "En concubinage",
+          "value": "concubinage"
+        },
+        {
+          "label": "Veuf(e)",
+          "value": "veuf"
+        }
+      ]
+    },
+    "age": {
+      "type": "input",
+      "label": "Quel âge avez-vous ?",
+      "value": "age",
+      "option": {
+        "min": 18,
+        "max": 99
+      }
+    },
+    "salaire": {
+      "type": "input",
+      "label": "A combien estimez-vous environ les revenus mensuels nets de votre foyer ?",
+      "value": "salary",
+      "option": {
+        "max": 300000
+      }
+    }
+  }
+}
