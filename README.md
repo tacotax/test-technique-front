@@ -8,7 +8,7 @@
 6. Prérequis
 
 ## Objectif :
-L'objectif est de créer un slider présentant 3 slides avec les données fournies par l'api.
+L'objectif est de créer un formulaire (appelé slider) présentant 3 slides à partir des données fournies par l'api.
 
 Description du slider :
 
@@ -20,23 +20,23 @@ Description du slider :
 (voir images pour design)
 
 ## Techno :
-Le slider est a réaliser avec React.js.
+Le slider est à réaliser avec React.js.
 L'intégration se fera avec au choix : Sass ou styled-component.
 
 ## Spécificités :
 ### slider
-* On ne peut accéder à la prochaine slide que si nous avons sélectionné une valeur à la question de la slide
+* On ne peut accéder à la prochaine slide que si une valeur à été sélectionné sur la slide courante
 * Si on retourne à une slide précédente la valeur déjà entrée précédemment est sélectionnée/entrée et non pas vide
 
 ### bouton
-* Le bouton next n'est pas présent pour la dernière slide mais un bouton submit
+* Le bouton next n'est pas présent sur la dernière slide, un bouton submit le remplace
 * Le bouton prev n'est pas présent pour la première slide
 
 ### Progress bar
 * À la dernière slide la valeur de la progress bar n'est pas 100% (environ 90%)
 
 ### Input
-* Si on clique sur next nous avons un message d'erreur demandant de remplir la donnée
+* Si on clique sur next sans avoir saisi de valeur un message d'erreur s'affiche demandant de remplir la donnée
 
 ## Images :
 ### Slider première slide
@@ -56,9 +56,13 @@ L'intégration se fera avec au choix : Sass ou styled-component.
 
 ### Troisième slide ressemble à la deuxième
 
+### Submit
+Le submit affiche les données qui ont été saisies
+
 
 ## Server :
-Nous vous fournissons un serveur à lancer en local pour récupérer les données du slider.
+Un serveur à lancer en local fourni les données du slider.
+Des slides pourront éventuellement être rajoutées aux données.
 
 Celui-ci vous fournit le call à faire sur `http://localhost:9888/api/questionnaire`
 
