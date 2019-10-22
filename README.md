@@ -37,6 +37,7 @@ L'intégration se fera avec au choix : Sass ou styled-component.
 
 ### Input
 * Si on clique sur next sans avoir saisi de valeur un message d'erreur s'affiche demandant de remplir la donnée
+* Une validation peut-être mis en place en utilisant les informations présentes dans la clé `option`
 
 ## Images :
 ### Slider première slide
